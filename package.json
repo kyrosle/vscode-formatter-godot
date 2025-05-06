@@ -54,6 +54,18 @@
       "type": "object",
       "title": "GDScript Formatter and Linter",
       "properties": {
+        "godotFormatterAndLinter.gdformatPath": {
+          "type": "string",
+          "default": "gdformat",
+          "description": "Custom path to gdformat executable",
+          "order": 4
+        },
+        "godotFormatterAndLinter.gdlintPath": {
+          "type": "string",
+          "default": "gdlint",
+          "description": "Custom path to gdlint executable",
+          "order": 5
+        },
         "godotFormatterAndLinter.lintSeverityLevel": {
           "enum": [
             "Error",
